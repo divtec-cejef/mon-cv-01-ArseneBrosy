@@ -9,14 +9,38 @@ https://coolors.co/1d201f-ff1d15-7d1538-f5f5f5
 
 body {
     font-size: 1rem;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    line-height: 1.4;
     background-color: #1D201F;
     color: #F5F5F5;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+header {
+    border-bottom: 5px solid #7D1538;
+    display: flex;
+}
+
+main {
+    background-image: url("../images/voyage-tessin.png");
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: bottom center;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #7D1538;
 }
 
 h1 {
     font-size: 3rem;
-    color: #FF1D15;
+    color: #F5F5F5;
+    padding:  10px;
+    text-align: center;
 }
 
 h2 {
@@ -27,4 +51,16 @@ h2 {
 a {
     color: #F5F5F5;
     font-weight: bold;
+}
+
+a:hover {
+    text-shadow: 0 0 10px #FF1D15;
+    color: #FF1D15;
+}
+
+img {
+    box-shadow: 0 0 40px #F5F5F5;
+    margin: 15px;
+    max-width: 100%;
+    height: auto;
 }
