@@ -11,9 +11,11 @@ body {
     font-size: 1rem;
     font-family: Roboto, sans-serif;
     font-weight: 400;
+    line-height: 1.4;
     background-color: #1D201F;
     color: #F5F5F5;
-    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 header {
@@ -52,11 +54,13 @@ a {
 }
 
 a:hover {
-    text-shadow: 0px 0px 10px #FF1D15;
+    text-shadow: 0 0 10px #FF1D15;
     color: #FF1D15;
 }
 
 img {
-    box-shadow: 0px 0px 40px #F5F5F5;
+    box-shadow: 0 0 40px #F5F5F5;
     margin: 15px;
+    max-width: 100%;
+    height: auto;
 }
