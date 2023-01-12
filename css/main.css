@@ -1,0 +1,30 @@
+/*
+COLOR PALETTE
+https://coolors.co/1d201f-ff1d15-7d1538-f5f5f5
+#1D201F    black
+#FF1D15    red
+#7D1538    dark red
+#F5F5F5    white
+ */
+
+body {
+    font-size: 1rem;
+    font-family: Roboto;
+    background-color: #1D201F;
+    color: #F5F5F5;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #FF1D15;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #FF1D15;
+}
+
+a {
+    color: #F5F5F5;
+    font-weight: bold;
+}
